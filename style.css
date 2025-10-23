@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://wallpaperbat.com/img/561677-natural-glass-rain-evening-heavy-rain-monsoon-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 80px;
+    padding-top:20px ;
+    letter-spacing: 8px;
+}
+#calculator{
+    box-shadow: 0px 0px 10px 10px lightblue;
+    width: 330px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin: auto;
+    position: relative;
+    top: 100px;
+    gap: 20px;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+#input{
+    grid-column: 1/4;
+    height: 40px;
+    outline: none;
+    padding: 10PX;
+    font-size: 20PX;
+    border: none;
+    border-radius: 10px;
+}
+button{
+    font-size: 20px;
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn7,#btn9{
+    height:41px ;
+}

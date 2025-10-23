@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>CALCULATOR</h1></center>
+    <div id="calculator" data-aos="flip-left" data-aos-duration="2600">
+        <label for="input">calculator</label>
+        <input type="text" name="calculator" id="input">
+        <button onclick="display(1)">1</button>
+        <button onclick="display(2)">2</button>
+        <button onclick="display(3)">3</button>
+        <button onclick="display(4)">4</button>
+        <button onclick="display(5)">5</button>
+        <button onclick="display(6)">6</button>
+        <button onclick="display(7)">7</button>
+        <button onclick="display(8)">8</button>
+        <button onclick="display(9)">9</button>
+        <button id="btn1" onclick="display(0)">0</button>
+        <button id="btn2" onclick="display('+')">+</button>
+        <button id="btn3" onclick="display('-')">-</button>
+        <button id="btn4" onclick="display('*')">*</button>
+        <button id="btn5" onclick="display('/')">/</button>
+        <button id="btn6" onclick="display('%')">%</button>
+        <button id="btn7" onclick="result()">=</button>
+        <button id="btn8" onclick="back()">&LeftArrow;</button>
+        <button id="btn9" onclick="remove()">CLEAR</button>
+    </div>
+    <script src="./script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+</body>
+</html>
